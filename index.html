@@ -8,12 +8,20 @@
 <!-- 모바일용웹 -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <!-- 검색로봇 검색 허용 --> 
-    <meta name="description" content="LIFUL">
-    <meta property="og:type" content="LIFUL">
-    <meta property="og:title" content="LIFUL MINIMAL GARMENTS.">
-    <meta property="og:image" content="http://liful.net/image/liful_net.png">
-    <meta property="og:url" content="http://liful.net/">
-    <meta property="og:description" content="LIFUL OFFICIAL">
+<meta name="description" content="LIFUL">
+<meta property="og:type" content="LIFUL">
+<meta property="og:title" content="LIFUL MINIMAL GARMENTS.">
+<meta property="og:image" content="http://liful.net/image/liful_net.png">
+<meta property="og:url" content="http://liful.net/">
+<meta property="og:description" content="LIFUL OFFICIAL">
+<!-- 가비아 모바일 도메인 사용 세팅 코드 -->
+<script type="text/javascript" src="http://hosting.gabia.com/api/mobile_checker.js"></script>
+<script type="text/javascript">
+	var mobile_checker = new gabia.moble_checker();//모바일사이트 도메인
+	mobile_checker.mobile_domain = "m.고객도메인";//모바일사이트 메인페이지의 절대경로
+	mobile_checker.mobile_index = "/mobile/index.php";//모바일주소(m.domain.com) 이거나 모바일기기 접속일 경우 페이지 이동, 선택사항 모바일접속시m. 없이 도메인만적어도 모바일로 접속
+	mobile_checker.checkClient();
+</script>
 
 <!--WEB FONT & WEB FONTS ICON-->
 <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
